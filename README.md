@@ -12,7 +12,7 @@ scrypt to get history data, if you share your history, you can help to:
 4) go to the "MULTIPLY BTC" tab and wait for the history table appear (maybe you must wait, 1 second or 2 seconds)
 5) open the developer tools
 	a) use shortcut and press F12 key in you keyboard or
-	b) go to menu button in top rigth corner -> more tools -> developer tools
+	b) go to menu button in top right corner -> more tools -> developer tools
 	
 	this open a new windows in your browser called DevTools
 6) in the DevTools window select "Sources" tab
