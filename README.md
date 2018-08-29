@@ -40,14 +40,14 @@ you can remove if you wish
 
 # TODO
 - Create a manual with images
-- Create Site to show golbal results
+- Create Site to show global results
 - Generate a neural network to try make preditions in your bets (i try to use tensorflow)
 
-# Do you want help ?
+# Do you want to help ?
 send me a message with your comments
 fork this project and pull your feature
 
-# Do you want participate 
+# would you like to participate?
 would be nice if you a me work together
 
 # Errata
