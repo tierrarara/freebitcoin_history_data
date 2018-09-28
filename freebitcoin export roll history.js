@@ -8,7 +8,7 @@ var $newHistory = $('#newer_bet_history');
 
 var $olderHistory = $('#older_bet_history');
 
-var currentIteration = 1;
+var currentIteration = 0;
 
 var table = [];
 
@@ -56,9 +56,14 @@ function getData() {
         return;
     }
 
-   readTable();
+    var continueRead = readTable();
 
-    setTimeout(loop, loopSpeedMS);
+    if  (continueRead) {
+        setTimeout(loop, loopSpeedMS);
+    }else {
+        // detener script y mostar la data actual
+        currentIteration = maxIterations + 1;
+    }
 }
 
 
@@ -68,6 +73,8 @@ function readTable() {
     var rows = $('>div', container);
 
     var currentDate = '';
+
+    var continueRead = true;
 
     $.each(rows, function (idx, row) {
 
@@ -131,6 +138,33 @@ function readTable() {
 
         });
 
+        rowData = $r.find('div.balance_before_after>div');
+
+        $.each(rowData, function (kdx, cell){
+
+            
+            switch(kdx) {
+               
+ 
+                case 3:// balance before
+                    rowObject.push($(cell).text());
+                break;
+               
+                case 5:// balance after
+                    rowObject.push($(cell).text());
+                break;
+                
+                default:
+
+            }
+
+        });
+
+        if (rowObject.length < 1) {
+            continueRead = false
+
+            return false // break each
+        }
 
         var rowCSVStr = rowObject.join(';')
 
@@ -140,10 +174,9 @@ function readTable() {
 
         table.push(rowCSVStr);
 
-
-
     });
 
+    return continueRead
     
 }
 
