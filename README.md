@@ -5,6 +5,10 @@ scrypt to get history data, if you share your history, you can help to:
 
 # how to get history
 
+Video following bellow steps
+https://www.youtube.com/watch?v=MyLk3iD20ns
+
+
 1) copy "freebitcoin export roll history.js" in your PC (i never try or test it in my phone)
 
 2) open your browser ( please use google chrome, you maybe can use other too)
