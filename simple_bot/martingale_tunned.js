@@ -3,7 +3,7 @@
  * se pueden reemplazar los selectores _btc_ por _doge_ y funciona tambien para freedogeco.in
  *
  * FAVOR LEER
- * WARNING: Esto es solo un caso de estudio, este bot no asegura ninguna ganacia, es mas, es muy probable ud pierda todo su dinero
+ * WARNING: Esto es solo un caso de estudio, este bot no asegura ninguna ganancia, es mas, es muy probable ud pierda todo su dinero
  * queda bajo su responsabilidad utilizarlo y todo problema que este le genere es bajo su propio riesgo
  * 
  * este bot solo ha sido testeado por mi y mis pruebas no han sido satisfactorias
