@@ -79,8 +79,8 @@
  
      // rango de tiempo de espera entre apuestas en milisegundos
      // ajustar a valores reales de juego manual para evitar ser bloqueado
-     minWait: 3000,
-     maxWait: 4000,
+     minWait: 500,
+     maxWait: 900,
  
  };
  
